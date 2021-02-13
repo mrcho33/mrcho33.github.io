@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGSHU ZHANG</title>
+    <link rel="stylesheet" type="text/css" href="../mrcho33.github.io/css/index.css" />
+</head>
+<body>
+  <header>
+      <h3>BINGSHU ZHANG</h3>
+      <nav>
+          <ul>
+              <li><a href="#" id="submenu">PROJECT</a></li>
+              <li><a href="#">PROFILE</a></li>
+              <li><a href="#">CONTANT</a></li>
+              <li><a href="https://github.com/mrcho33"><img src="../mrcho33.github.io/img/github.svg" style="width: 24px; height: 24px; margin-top: 18px;"></a></li>
+          </ul>
+      </nav>
+  </header>
+  <div class="submenu">
+    <ul>
+        <li><a href="#">Graphic</a></li>
+        <li><a href="#">App</a><i>/</i></li>
+        <li><a href="#">Web</a><i>/</i></li>
+    </ul>
+  </div>
+  <div style="height: 800px; width: 300ox; background-color: aquamarine;"><img src=""></div>
+
+  <script>
+      var subMenuHover = document.querySelector('#submenu')
+      var subMenuShow = document.querySelector('.submenu')
+      subMenuHover.onmouseover = function(){
+        subMenuShow.style.display = 'block'
+        subMenuShow.onmouseover = function(){
+          this.style.display = 'block'
+       }
+      }
+      subMenuShow.onmouseout = function(){
+          this.style.display = 'none'
+      }
+  </script>
+    
+</body>
+</html>
