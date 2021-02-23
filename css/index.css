@@ -39,29 +39,32 @@ nav ul li a:hover{
 .submenu{
     position: absolute;
     top: 60px;
-    width: 100%;
-    float: right;
+    left: 0px;
     display: none;
-    background-color: #ffffff;
+    background-color: #fff;
     z-index: 2;
+    height: 45px;
+    float: right;
+    width: 100%;
 }
-.submenu ul li{
+.submenu li{
     float: right;
     list-style:none;
     line-height: 45px;
-    margin-right: 30px;
+    margin-right: 10px;
 }
-.submenu ul li a{
+.submenu li a{
     text-decoration: none;
     color: #333333;
     font-size: 14px;
+    float: left;
 }
-.submenu ul li i{
+.submenu li i{
     color: #999999;
     font-size: 14px;
     margin-left: 30px;
 }
-.submenu ul li a:hover{
+.submenu li a:hover{
     text-decoration: underline;
     font-size: 14px;
 }
